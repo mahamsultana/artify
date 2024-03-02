@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@400..700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url('../images/girl.png');
+    background-color: #ccc;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+}
+.container {
+    padding: 0;
+    margin: 0;
+}
+
+.title{
+    padding-top: 270px;
+    padding-left: 60px;
+    font-family: "Noto Serif Khojki", serif;
+    font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.change{
+    color: #68510a;
+}
+
+#get{
+    margin-left: 60px;
+    margin-top:30px;
+    width: 180px;
+    height:50px;
+}
+
+@media screen and (max-width: 453px) {
+
+    .main {
+            background-image: url('../images/girl.png');
+            background-color: #ccc;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 460px;
+        }
+
+    .title {
+        font-size: 8vw;
+        padding-top: 50%;
+        padding-left: 5%;
+    }
+
+    #get {
+        margin-left: 3%;
+        margin-top: 5%;
+        width: 40%;
+        height: 8%;
+        font-size: 4vw;
+    }
+}
+@media screen and (min-width: 453px) and (max-width:700px) {
+
+    .main {
+        background-image: url('../images/girl.png');
+        background-color: #ccc;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 490px;
+    }
+
+    .title {
+        font-size: 6vw;
+        padding-top: 30%;
+        padding-left: 5%;
+    }
+
+    #get {
+        margin-left: 3%;
+        margin-top: 5%;
+        width: 40%;
+        height: 8%;
+        font-size: 4vw;
+    }
+}
+@media screen and (min-width: 701px) and (max-width:991px) {
+
+    .main {
+        background-image: url('../images/girl.png');
+        background-color: #ccc;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 550px;
+    }
+
+    .title {
+        font-size: 4vw;
+        padding-top: 30%;
+        padding-left: 5%;
+    }
+
+    #get {
+        margin-left: 3%;
+        margin-top: 5%;
+        width: 40%;
+        height: 5%;
+        font-size: 3vw;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width:1400px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .main {
+        background-image: url('../images/girl.png');
+        background-color: #ccc;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 1600px;
+        height: 700px;
+    }
+
+    .title {
+        font-size: 4vw;
+        padding-top: 30%;
+        padding-left: 5%;
+    }
+
+    #get {
+        margin-left: 5%;
+        margin-top: 5%;
+        width: 30%;
+        height: 5%;
+        font-size: 3vw;
+    }
+}

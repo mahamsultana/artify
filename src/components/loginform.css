@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Serif+Khojki:wght@400..700&display=swap');
+
+.signupcontainer {
+    background-image: url('https://w0.peakpx.com/wallpaper/492/815/HD-wallpaper-lines-colorful-background-blur-art-material-design.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.signup-form-container {
+    width: 400px;
+    max-width: 1000px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: whitesmoke;
+}
+
+.signup-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Libre Baskerville", serif;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="username"],
+input[type="email"],
+input[type="password"],
+input[type="phone"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#signupp {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #68510a;
+    color: #fff;
+    cursor: pointer;
+}
+
+#signupp:hover {
+    background-color: #4a3b06;
+}
+
+.or {
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 100;
+}
+.link{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+        margin: 0 auto;
+    color: #4a3b06;
+}
+.link:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:600px) {
+    .signupcontainer {
+        background-image: url('https://w0.peakpx.com/wallpaper/492/815/HD-wallpaper-lines-colorful-background-blur-art-material-design.jpg');
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 700px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .or {
+        text-align: center;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 100;
+    }
+}
